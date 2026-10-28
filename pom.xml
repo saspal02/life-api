@@ -60,6 +60,16 @@
 			<artifactId>flyway-database-postgresql</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.modulith</groupId>
 			<artifactId>spring-modulith-observability-api</artifactId>
 		</dependency>
@@ -188,6 +198,11 @@
 								<path>
 									<groupId>org.springframework.boot</groupId>
 									<artifactId>spring-boot-configuration-processor</artifactId>
+								</path>
+								<path>
+									<groupId>org.projectlombok</groupId>
+									<artifactId>lombok</artifactId>
+									<version>${lombok.version}</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
