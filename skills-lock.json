@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "mapstruct": {
+      "source": "claude-dev-suite/claude-dev-suite",
+      "sourceType": "github",
+      "skillPath": "skills/languages/mapstruct/SKILL.md",
+      "computedHash": "50dcb3a41a92bb42b6714e8ab9fd1e7149fa89774a05c6e21c7711368dbb6443"
+    }
+  }
+}
